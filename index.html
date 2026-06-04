@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obligatorio</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+<body>
+    <!-- ////////////////////////////////////////////Header///////////////////////////////////////////-->
+
+    <header>
+        <a href="#"><img id="LOGO" src="img/Logotipo-texto.png" alt="Logotipo de la empresa"></a>
+        <a id="BOTONCITO" href="#"><img src="img/hamburguesa.png" alt=""></a>
+
+        <nav class="poofT">
+            <a id="ACTIVO" href="#">Inicio</a>
+            <a href="#">Datos</a>
+            <a href="#">Objetivos</a>
+        </nav>
+
+    </header>
+    <!-- /////////////////////////////////////////////Main////////////////////////////////////////////-->
+    <main>
+
+        <section>
+            <div id="HERO">
+                <article>
+                    <h1>Asumiendo un compromiso global</h1>
+                    <p class="poofDT">El cambio no se da solo, se trata de una red de ayuda entre todos. Actualmente la
+                        lucha por los
+                        ecosistemas marítimos sufren por falta de impulso y cobertura. Tu voz y tus acciones pueden
+                        cambiar
+                        todo.</p>
+                </article>
+            </div>
+
+            <article id="FORM">
+                <h2>Forma parte del cambio</h2>
+                <p>
+                    Con solo dos datos podrás formar parte de nuestra red, y ser parte de nuestra movida proteger los
+                    océanos en tu país, y en todo el mundo.
+                </p>
+                <form id="formulario" action="" method="get" autocomplete="on">
+                    <fieldset>
+
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+
+                        <label for="country" class="form-label">Tu país</label>
+                        <select id="country" name="country" required>
+                            <option value="">Selecciona un país</option>
+                            <option value="argentina">Argentina</option>
+                            <option value="chile">Chile</option>
+                            <option value="uruguay">Uruguay</option>
+                            <option value="estadosunidos">Brasil</option>
+                        </select>
+
+                        <input type="submit" id="enviar" value="Enviar">
+
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------->
+
+        <section id="Grid">
+            <!-- chequear si es la forma correcta de hacer esto. -->
+            <div class="blank"></div>
+            <div>
+                <article id="articulo1" class="articleGrid">
+                    <h2> Descubre todos nuestros aportes al objetivo 14 de <span>Desarrollo Sostenible</span> </h2>
+                    <a href="#">Ver más</a>
+                </article>
+            </div>
+            <div>
+                <img class="cuadrado" src="img/Grid-img-1.jpg" alt="Medusas en el océano">
+            </div>
+            <div>
+                <article id="articulo2" class="articleGrid poofT">
+                    <h2>Proyecto restauración de arrecifes</h2>
+                    <p>El constante aumento de temperatura del océano podría causar irreparables en nuetros arrecifes de
+                        corales. La meta era 2020, pero la lucha sigue, y en Beluga dedicaremos este 2026 a esta
+                        problemática. </p>
+                </article>
+            </div>
+            <div class="blank"></div>
+            <div><img class="cuadrado" src="img/Grid-img-2.jpg" alt="Pez en arrecifes de coral"></div>
+        </section>
+
+        <!---------------------------------------------------------------------------------------------->
+
+        <section id="ARTICULOS">
+            <h2>Contenido relevante</h2>
+
+            <div id="GridArticulos">
+                <article>
+                    <img src="img/Article-img1.jpg" alt="Pescador rodeado de gaviotas">
+                    <h3>La pesca y el océano.</h3>
+                    <p>Parte del cuidado de los ecosistemas marinos viene de la pesca responsable.
+                        Este es nuestro plan para fomentar la pesca artesanal.</p>
+                    <a href="#">Leer informe</a>
+                    <h4 class="poofDT" id="cartelito1">Propuesta</h4>
+                </article>
+
+                <article>
+                    <img src="img/Article-img2.jpg" alt="Estudios de alboratorios">
+                    <h3>Acidificación</h3>
+                    <p>El ph de los océanos promedia en 8, un nivel acídico mayor al ideal para la vida marina. Estos
+                        estuidos analizan sus posibles efectos.</p>
+                    <a href="#">Leer informe</a>
+                    <h4 class="poofDT" id="cartelito2">Análisis</h4>
+
+                </article>
+
+                <article>
+                    <img src="img/Article-img3.jpg" alt="Una tortuga marina bajo el agua">
+                    <h3>El océano y nuestra salud</h3>
+                    <p>La preservación de la biodiversidad del océano no es solo preservar nuestro alimento, pero
+                        también toma un rol clave en el desarrollo de medicinas.</p>
+                    <a href="#">Leer Informe</a>
+                    <h4 class="poofDT" id="cartelito3">Informativo</h4>
+
+                </article>
+
+
+                <article>
+                    <img class="poofDT" src="img/Article-img4.jpg" alt="">
+                    <h3>Lo que se viene</h3>
+                    <p>Estos son los objetivos porpuestos para el 2030 por parte de la <strong>ONU</strong>.</p>
+                    <a href="#">Leer artículo</a>
+                </article>
+
+                <article>
+                    <img class="poofDT" src="img/Article-img5.jpg" alt="">
+                    <h3>Activismo desde casa</h3>
+                    <p>Cuidar del mundo comienza con tu rutina diaria. Tus decisiones y acciones valen más que
+                        cualquier donación.</p>
+                    <a href="#">Leer artículo</a>
+
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ////////////////////////////////////////////Footer///////////////////////////////////////////-->
+
+    <footer>
+        <h2>Nuestras redes:</h2>
+        <div>
+            <a href="#"><img src="img/Icon-linkedin.png" alt="Nuestro LinkdeIn"></a>
+            <a href="#"><img src="img/Icon-twitter.png" alt="Nuestro Twitter"></a>
+            <a href="#"><img src="img/Icon-instagram.png" alt="Nuestro Instagram"></a>
+            <a href="#"><img src="img/Icon-youtube.png" alt="Nuestro Youtube"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
