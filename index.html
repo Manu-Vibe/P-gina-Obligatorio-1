@@ -22,8 +22,8 @@
 
         <nav class="poofT">
             <a id="ACTIVO" href="#">Inicio</a>
-            <a href="#">Datos</a>
-            <a href="#">Objetivos</a>
+            <a href="#Grid">Nosotros</a>
+            <a href="#ARTICULOS">Información</a>
         </nav>
 
     </header>
@@ -48,19 +48,26 @@
                     Con solo dos datos podrás formar parte de nuestra red, y ser parte de nuestra movida proteger los
                     océanos en tu país, y en todo el mundo.
                 </p>
-                <form id="formulario" action="" method="get" autocomplete="on">
+                <form id="formulario" action="" method="post" autocomplete="on">
                     <fieldset>
 
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+                        <input type="email" id="email" name="email" title="Email" placeholder="email@gmail.com"
+                            required>
 
-                        <label for="country" class="form-label">Tu país</label>
-                        <select id="country" name="country" required>
-                            <option value="">Selecciona un país</option>
+
+                        <select id="country" name="country" title="Tu País" required>
                             <option value="argentina">Argentina</option>
+                            <option value="bolivia">Bolivia</option>
+                            <option value="brasil">Brasil</option>
                             <option value="chile">Chile</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="ecuador">Ecuador</option>
+                            <option value="guyana">Guyana</option>
+                            <option value="paraguay">Paraguay</option>
+                            <option value="peru">Perú</option>
+                            <option value="surinam">Surinam</option>
                             <option value="uruguay">Uruguay</option>
-                            <option value="estadosunidos">Brasil</option>
+                            <option value="venezuela">Venezuela</option>
                         </select>
 
                         <input type="submit" id="enviar" value="Enviar">
@@ -72,7 +79,7 @@
 
         <!---------------------------------------------------------------------------------------------->
 
-        <section id="Grid">
+        <section class="centrado" id="Grid">
             <!-- chequear si es la forma correcta de hacer esto. -->
             <div class="blank"></div>
             <div>
@@ -98,7 +105,7 @@
 
         <!---------------------------------------------------------------------------------------------->
 
-        <section id="ARTICULOS">
+        <section class="centrado" id="ARTICULOS">
             <h2>Contenido relevante</h2>
 
             <div id="GridArticulos">
